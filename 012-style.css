@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-anete-lusina-5240544.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: #F2AD94 */
+    padding-top: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+img.connect-image {
+    width: 10%;
+    max-width: 70px; /* Adjust the maximum width of the image */
+    display: block;
+    position: fixed;
+    margin: 0 auto;
+    border-radius: 10px; /* Add border-radius for a rounded appearance */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+/* Rest of your styles remain unchanged */
+#sidebar {
+    width: 250px;
+    height: 100%;
+    /* background-color: #66BCF2; */
+    background-image: url('pexels-pixabay-256453.jpg'); /* Replace 'sidebar-background.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    overflow: auto;
+}
+
+#content {
+    color: #eeeff3;
+    text-align: center;
+    margin-left: 250px;
+    padding: 16px;
+    
+    
+}
+
+/* Style the sidebar links */
+#sidebar a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #eeeff3;
+    display: block;
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s; /* Add smooth transition for background color change */
+}
+
+/* Change color on hover */
+#sidebar a:hover {
+    color: #7a2c2c;
+    background-color: #ebef17; /* Change background color on hover */
+    
+}
+#sidebar p {
+    text-align: center; /* Center the content in the sidebar */
+    padding: 20px;
+    font-size: 20px;
+    color: #eeeff3;
+}
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #eeeff3;
+    text-align: center; /* Centra el contenido de las listas */
+}
+
+/* Add a separator line between links and additional content */
+#sidebar hr {
+    border: 1px solid #fff;
+    margin: 10px;
+}
+.intro-video {
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 0px; /* Ajusta el margen superior según sea necesario */
+}
+
+.intro-video video {
+    width: 100%;
+    max-width: 500px; /* Ajusta el máximo ancho según tus preferencias */
+}
+
+#header-pdfs {
+    color: #eeeff3;
+    text-align: center;
+    margin-left: 250px;
+    padding: 16px;
+}
+.pdf-viewer {
+    margin-left: 250px;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0px;
+    /* gap: 0px; */
+    
+}
+
+.pdf-column {
+    margin-left: 250px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjust layout for smaller screens */
+    .pdf-column {
+        width: 100%; /* One column for smaller screens */
+    }
+}

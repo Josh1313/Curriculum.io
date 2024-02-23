@@ -3,72 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="012-style.css" />
-    <title>My CV</title>
-    
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-<div id="sidebar">
-    <p>Content</p>
-    <a href="#section1">Program Languagues</a>
-    <ul>
-        <li>Html <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>Css <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>JavaScript <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li> Python "EDA" <a href="https://www.youtube.com/watch?v=_GmTFpYk7Q4" target="_blank">Watch video here</a></li>
-    </ul>
-    <a href="#section2">Visualization Tools</a>
-    <ul>
-        <li>Matplotlib <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>Powerbi <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>Tableau <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-    </ul>
-     <a href="#section3">Libraries</a>
-     <ul>
-        <li>Pandas<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>Numpy<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-        <li>Scikitlearn<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
-    </ul>
-    <!-- Add more links as needed -->
-</div>
+    <div class="app">
 
-<div id="content">
-    <a href="https://josh1313.github.io/JoshProyecgithhub.io/" target="_blank">
-        <img src="you tube++.png" alt="Connect with Me" class="connect-image">
-    </a>
-    <h2>My curriculum</h2>
-    <p>This website hosts my curriculum. Feel free to enjoy exploring the content—whether reading or watching. You can navigate directly to the sections that align with your interests or criteria..</p>
-</div>
-<div class="intro-video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoC4RxNIs5M" frameborder="0" allowfullscreen></iframe>
-</div>
-<div id="header-pdfs">
-    <h2>Mis estudios</h2>
-    <p>Certicates</p>
-</div>
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
 
-<div class="pdf-viewer">
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/1p5rSoY4sD0keFGATDLDwistMe5FakZI8/preview" width="100%" height="600px"></embed>
-    </div>
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/1R6OMY0-zADkePVPDSqOfAfhNT4W0FzY1/preview" width="100%" height="600px"></embed>
-    </div>
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/15aGSufDDjoVgBSmsb9SP69uSUnXOdjjK/preview" width="100%" height="350px"></embed>
-    </div>
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/1mbEyXG-4Szw1_Ob-ncvB-C_b_tgu6nMC/preview" width="100%" height="500px"></embed>
-    </div>
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/1CfX4vNI7HJT-qX5RFi8w_-FvuMGpHUvY/preview" width="100%" height="350px"></embed>
-    </div>
-    <div class="pdf-column">
-        <embed src="https://drive.google.com/file/d/1UeOI3MtFHha0vsv8QiZrgcb8Ecin2YSU/preview" width="100%" height="350px"></embed>
-    </div>
-</div>
+        <aside class="sidebar">
 
-<script src="pdfProteccion.js"></script>
+            <h3>MENU</h3>
 
+            <nav class ="menu">
+                <a href="#" class="menu-item is-active">Home</a>
+                <a href="#" class="menu-item ">Visualization Tools</a>
+                <ul>
+                    <li>Matplotlib <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>Powerbi <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>Tableau <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                </ul>
+                <a href="#" class="menu-item ">Libraries</a>
+                <ul>
+                    <li>Pandas<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>Numpy<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>Scikitlearn<a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                </ul>   
+                <a href="#" class="menu-item ">Program Languagues</a>
+                <ul>
+                    <li>Html <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>Css <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li>JavaScript <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M&t=8945s" target="_blank">Watch video here</a></li>
+                    <li> Python "EDA" <a href="https://www.youtube.com/watch?v=_GmTFpYk7Q4" target="_blank">Watch video here</a></li>
+                </ul> 
+            </nav>
+
+        </aside>
+
+        <main class="content">
+            <h1>My curriculum</h1>
+            <p>This website hosts my curriculum. Feel free to enjoy exploring the content—whether reading or watching. You can navigate directly to the sections that align with your interests or criteria..</p>
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QoC4RxNIs5M" frameborder="0" allowfullscreen></iframe>
+       
+       
+            <h2>Mis estudios</h2>
+            <p>Certicates</p>
+        
+        
+        <div class="pdf-viewer">
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/1p5rSoY4sD0keFGATDLDwistMe5FakZI8/preview" width="100%" height="600px"></embed>
+            </div>
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/1R6OMY0-zADkePVPDSqOfAfhNT4W0FzY1/preview" width="100%" height="600px"></embed>
+            </div>
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/15aGSufDDjoVgBSmsb9SP69uSUnXOdjjK/preview" width="100%" height="350px"></embed>
+            </div>
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/1mbEyXG-4Szw1_Ob-ncvB-C_b_tgu6nMC/preview" width="100%" height="500px"></embed>
+            </div>
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/1CfX4vNI7HJT-qX5RFi8w_-FvuMGpHUvY/preview" width="100%" height="350px"></embed>
+            </div>
+            <div class="pdf-column">
+                <embed src="https://drive.google.com/file/d/1UeOI3MtFHha0vsv8QiZrgcb8Ecin2YSU/preview" width="100%" height="350px"></embed>
+            </div>
+        </div>
+        </main>
+    </div>
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menu_toggle.addEventListener('click', () =>{
+            menu_toggle.classList.toggle('is-active');
+            sidebar.classList.toggle('is-active');
+        })
+    </script>
+    
 </body>
 </html>

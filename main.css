@@ -148,5 +148,32 @@
         width: 90%;
     }
 }
+/* Estilos generales para pantallas grandes */
+/* ... */
+
+/* Media query para pantallas más pequeñas, como el iPhone 6 */
+@media only screen and (max-width: 375px) {
+    /* Ajustes específicos para dispositivos móviles */
+    body {
+        text-align: center;
+    }
+
+    .sidebar {
+        /* Estilos adicionales según sea necesario */
+        display: inline-block; /* Alinea el sidebar al centro en dispositivos móviles */
+        margin: 0 auto; /* Centra el sidebar */
+    }
+
+    .content {
+        /* Estilos adicionales según sea necesario */
+        width: 90%; /* Alinea el contenido al centro en dispositivos móviles */
+        margin: 0 auto; /* Centra el contenido */
+    }
+    
+    .pdf-column {
+        height: auto; /* Cambia la altura a "auto" para permitir el ajuste automático en pantallas más pequeñas */
+    }
+
+}
 
 

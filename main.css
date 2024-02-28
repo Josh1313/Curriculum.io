@@ -117,6 +117,20 @@
     transform: rotate(90deg);
 }
 
+@-ms-viewport {
+    width: device-width;
+ }
+ body {
+    -ms-overflow-style: scrollbar;
+ }
+ 
+ @media screen and (max-width: 480px) {
+    html, body {
+       min-width: 320px;
+    }
+ }
+ 
+
 @media only screen and (max-width: 1024px) {
     .sidebar{
         max-width: 200px;
